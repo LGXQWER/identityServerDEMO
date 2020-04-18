@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yxDsG2kbC3K19eCxY6+I20MfZ+/KtnAecVZvSlYxpjbjk8AtFTXcQK+tpQULUiedwVIniX3HSd+cs0Bgpf7fsw==",
+  "success": true,
+  "projectFilePath": "E:\\自己玩\\ABCConsoleClient\\ABCConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\identitymodel\\4.2.0\\identitymodel.4.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\system.text.encodings.web\\4.6.0\\system.text.encodings.web.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
