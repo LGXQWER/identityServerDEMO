@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\自己玩\\ABCConsoleClient\\ABCConsoleClient.csproj",
+      "projectUniqueName": "E:\\自己玩\\identityServerDEMO\\ABCConsoleClient\\ABCConsoleClient.csproj",
       "projectName": "ABCConsoleClient",
-      "projectPath": "E:\\自己玩\\ABCConsoleClient\\ABCConsoleClient.csproj",
+      "projectPath": "E:\\自己玩\\identityServerDEMO\\ABCConsoleClient\\ABCConsoleClient.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "E:\\自己玩\\ABCConsoleClient\\obj\\",
+      "outputPath": "E:\\自己玩\\identityServerDEMO\\ABCConsoleClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

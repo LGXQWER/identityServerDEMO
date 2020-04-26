@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWrt0W9migi3rL/x+mYg4jEbOiAU/Kc33YTNXNbK5gbckzZCplnVNlipuc6odPy4+GDcaWCYTCkcJBeQ8pgIsQ==",
+  "dgSpecHash": "nI7ctukpca/hKLmXCyv/5n3EVAnZKw40XCJKqJLUFqKGxKqxcPg1iuOBXmkSuJdUPQGAafPpWe3H9I/s5QuxFA==",
   "success": true,
-  "projectFilePath": "E:\\自己玩\\ABCService\\ABCService.csproj",
+  "projectFilePath": "E:\\自己玩\\identityServerDEMO\\ABCService\\ABCService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\identitymodel\\4.1.1\\identitymodel.4.1.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\identityserver4\\3.1.0\\identityserver4.3.1.0.nupkg.sha512",

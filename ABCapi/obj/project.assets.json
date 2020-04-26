@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\自己玩\\ABCapi\\ABCapi.csproj",
+      "projectUniqueName": "E:\\自己玩\\identityServerDEMO\\ABCapi\\ABCapi.csproj",
       "projectName": "ABCapi",
-      "projectPath": "E:\\自己玩\\ABCapi\\ABCapi.csproj",
+      "projectPath": "E:\\自己玩\\identityServerDEMO\\ABCapi\\ABCapi.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "E:\\自己玩\\ABCapi\\obj\\",
+      "outputPath": "E:\\自己玩\\identityServerDEMO\\ABCapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

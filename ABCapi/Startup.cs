@@ -34,6 +34,8 @@ namespace ABCapi
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";
+                    //多久验证一次token
+                    options.TokenValidationParameters.ClockSkew = TimeSpan.FromMinutes(1);
                 });
         }
 

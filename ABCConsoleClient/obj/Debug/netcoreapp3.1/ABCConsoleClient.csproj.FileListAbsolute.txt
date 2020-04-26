@@ -1,6 +1,5 @@
 E:\自己玩\ABCConsoleClient\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\自己玩\ABCConsoleClient\bin\Debug\netcoreapp3.1\ABCConsoleClient.exe
-E:\自己玩\ABCConsoleClient\obj\Debug\netcoreapp3.1\ABCConsoleClient.csprojAssemblyReference.cache
 E:\自己玩\ABCConsoleClient\obj\Debug\netcoreapp3.1\ABCConsoleClient.AssemblyInfoInputs.cache
 E:\自己玩\ABCConsoleClient\obj\Debug\netcoreapp3.1\ABCConsoleClient.AssemblyInfo.cs
 E:\自己玩\ABCConsoleClient\obj\Debug\netcoreapp3.1\ABCConsoleClient.RazorTargetAssemblyInfo.cache

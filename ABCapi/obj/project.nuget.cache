@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BpoQfKgJzWXxNeSEX9g72jbm1MH6dD73nXOjv0TQKPPxIDZv/SU4csljbsUltOj5/FkjmC4gc5rTfBg4MtFVbw==",
+  "dgSpecHash": "jYAcRY78xwWQIm7ZB0n2bVEcBGK66hwK/2ILxYCp5Es1dqfDOw5+8Nv8oDDdTjzTfcSAuI0ub1l29aRhzsQ9lw==",
   "success": true,
-  "projectFilePath": "E:\\自己玩\\ABCapi\\ABCapi.csproj",
+  "projectFilePath": "E:\\自己玩\\identityServerDEMO\\ABCapi\\ABCapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\identitymodel.aspnetcore.oauth2introspection\\4.0.1\\identitymodel.aspnetcore.oauth2introspection.4.0.1.nupkg.sha512",

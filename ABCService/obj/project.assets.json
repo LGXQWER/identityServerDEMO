@@ -3787,11 +3787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\自己玩\\ABCService\\ABCService.csproj",
+      "projectUniqueName": "E:\\自己玩\\identityServerDEMO\\ABCService\\ABCService.csproj",
       "projectName": "ABCService",
-      "projectPath": "E:\\自己玩\\ABCService\\ABCService.csproj",
+      "projectPath": "E:\\自己玩\\identityServerDEMO\\ABCService\\ABCService.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "E:\\自己玩\\ABCService\\obj\\",
+      "outputPath": "E:\\自己玩\\identityServerDEMO\\ABCService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

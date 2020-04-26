@@ -4,6 +4,7 @@
 
 using IdentityServer4;
 using IdentityServer4.Models;
+using System;
 using System.Collections.Generic;
 
 namespace ABCService
@@ -41,26 +42,32 @@ namespace ABCService
                 // mvc client using code flow + pkce
                 new Client
                 {
-                    ClientId = "spa",
-                    ClientName = "SPA Client",
+                    ClientId = "mvc client",
+                    ClientName = "MVC Client",
                     ClientSecrets = { new Secret("mvc secret".Sha256()) },
-                    //ClientUri = "http://identityserver.io",
-
                     AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
-                    //RequirePkce = true,
-                    //RequireClientSecret = false,
-                    RedirectUris = { "http://localhost:5002/signin-oidc" },
+                    //指定使用基于授权代码的授权类型的客户端是否必须发送校验密钥
+                   // RequirePkce = true,
+                    //RequireConsent = false, //禁用 确认授权那个consent 页面确认
+                    //指定允许的URI以返回令牌或授权码
+                    RedirectUris = { "http://localhost:5003/signin-oidc" },
+                    //指定客户端的注销URI，以用于基于HTTP的前端通道注销
+                    FrontChannelLogoutUri = "http://localhost:5003/signout-oidc",
+                    //指定在注销后重定向到的允许URI
+                    PostLogoutRedirectUris = { "http://localhost:5003/signout-callback-oidc" },
+                    AllowOfflineAccess = true, // offline_access
+                    //token过期时间60s
+                    AccessTokenLifetime=60,
+                    AllowedScopes = {"api1", 
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        //IdentityServerConstants.StandardScopes.Email,
+                        //IdentityServerConstants.StandardScopes.Phone,
+                        //IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.OfflineAccess
+                    }
 
-                    FrontChannelLogoutUri = "http://localhost:5002/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
-
-                    AllowedScopes = {"api1", IdentityServerConstants.StandardScopes.OpenId,
-                    IdentityServerConstants.StandardScopes.Profile,
-                    IdentityServerConstants.StandardScopes.Email,
-                    IdentityServerConstants.StandardScopes.Phone,
-                    IdentityServerConstants.StandardScopes.Address,
-                    IdentityServerConstants.StandardScopes.OfflineAccess }
-                }
+                },
             };
     }
 }
